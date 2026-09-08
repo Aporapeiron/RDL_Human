@@ -1,6 +1,6 @@
 # OXTと境界B：RDL的考察 v0.1
-*T2：運用層 / MIND / OP / DRAFT*  
-*依存：限界空間 / RDL_Core_v1.0 / SILN_v1.0 / 神経力学的基層構造 v1.0 / RDL_階層構造モジュール v2.0*
+*RDL_Human / 01_基層構造_神経力学 / DRAFT v0.2*  
+*依存：RDL_Core v2.0 / T1_SILN / 01_基層構造_神経力学*
 
 ---
 
