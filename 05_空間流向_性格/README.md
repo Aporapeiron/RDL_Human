@@ -2,26 +2,29 @@
 
 *RDL Human / T3 / Core v2.3同期*
 
-## 一文定義
+> **性格を固定実体としてではなく、特定Purpose / Bで反復観測される行動・解釈・関係応答のFlowとして扱う。**
 
-> **性格を固定実体としてではなく、特定Purpose / Bのもとで反復観測される行動・解釈・関係応答の流向として扱い、SFO・Big Five・MBTI等を比較可能な観測断面へ翻訳する。**
+## CURRENT — v2.3同期
 
-## 基本規律
+- `01_SFO空間流向診断_統合モデル.md`
+- `02_BigFive_SILN項目分解.md` — ファイル名は履歴上維持。Big FiveをSILN部品とは扱わない
+- `03_MBTI_SILN項目分解.md` — 同上
 
 ```text
 Person ≠ M_B
 Trait ≠ SILN component
-Big Five / MBTI score ≠ Core variable
+Big Five / MBTI / SFO score ≠ Core variable
 ```
 
-人間というSILNについて取得した `M_B / RIB_B / F` と、Human固有の認知空間・流向モデルを使って、性格ラベルを有限な観測断面として記述する。
+Big FiveやMBTIの科学的身分を同一化せず、それぞれの測定Function・用途・coverageを保持する。
 
-Big FiveやMBTIを科学的に同等視しない。各尺度の身分・妥当性・用途は別に保持し、RDL翻訳は「同じ人間動態をどの断面から見たか」の比較候補として使う。
+## PRE-v2.3 REFERENCE / RESEARCH NOTES
 
-## 主文書
+- `02_適応流向の符号反転_強みが拘束条件へ変わるとき.md`
+- `04_SFO別冊_神経力学的解釈法.md`
+- `05_人格空間生成仮説_認知空間と境界操作の構造圧縮.md`
+- `06_性格特性を統合SILNとして読む.md`
+- `07_異なる分析理論を断面として配置する可能性.md`
+- `08_SFO司法利用可能性.md`
 
-- `01_SFO空間流向診断_統合モデル.md`
-- `02_BigFive_SILN項目分解.md` — 題名は履歴上維持し、本文では「SILNの部品」ではなく観測断面として扱う
-- `03_MBTI_SILN項目分解.md` — 同上
-
-追加文書はHuman固有仮説として耐久検査対象とする。
+これらはHuman仮説の形成過程として保持するが、旧 `B_self / ξ / H / 神経物質→人格` 対応を含みうる。現行定義の根拠にはCURRENT文書を使う。
