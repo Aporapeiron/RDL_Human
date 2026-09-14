@@ -1,34 +1,51 @@
 # 02_BigFive_SILN項目分解
 
-*RDL Human / 空間流向診断・性格分解 T2 / DRAFT v1.0 (仮配置)*  
-*依存: RDL_Core / 人格空間生成仮説 / 04_既知心理・行動理論のRDL翻訳マッピング*
+*RDL Human / T3 / DRAFT v1.1*  
+*ファイル名は履歴上維持 / Core v2.3同期*
 
----
+## 0. 目的
 
-## ■ 0. 目的
+Big Five（OCEAN）を人間SILNの「内部部品」として同定するのでなく、**特定の測定Bで得られる反復的な応答傾向の圧縮断面**として再記述する。
 
-Big Five（OCEAN）の各因子を、「人間の固定部品」ではなく、**個体 $M_B^{\text{person}}$ の認知パラメータと流向（Flow）の観測断面**として数理分解する。
+```text
+human SILN
+↕ RIB群
+↓ measurement B_trait
+M_B / RIB_B
+↓
+responses / reports / behavior
+↓ measurement Function
+Big Five score
+```
 
----
+したがって `Big Five score ≠ Core variable` である。
 
-## ■ 1. 各因子の SILN 力学分解
+## 1. Human側の対応候補
 
-### 1. Extraversion（外向性 / 外部駆動性）
-$$E_{\text{obs}} \approx \frac{R_{\text{out}}(\text{external}) \cdot B_{\text{in/out}}(\text{human})}{\theta_{\text{diff}} \cdot w_{\text{diff}}}$$
-- **力学**: 外部（人間・刺激・タスク）への接近反応性 $R_{\text{out}}$ の高さ、および他者との越境コストの低さ。
+### Extraversion
 
-### 2. Agreeableness（協調性 / 同期結合性）
-$$A_{\text{obs}} \approx \frac{w_{\text{relation}}}{\theta_{\text{sync}}}$$
-- **力学**: 他者の内部状態に対する自己同期閾値 $\theta_{\text{sync}}$ の低さと、関係維持重み $w_{\text{relation}}$ の高さ。
+外部相互作用への接近頻度・報酬期待・社会的刺激への応答等の組合せとして比較する。
 
-### 3. Conscientiousness（誠実性 / 空間別慣性維持性）
-$$C_{\text{obs}} \approx R(d_{\text{goal}}) \cdot w_{\text{goal}} \cdot P_{\text{hold}}$$
-- **力学**: 時間的に離れた未来目標 $d_{\text{goal}}$ を現在価値として保持する解像度と、一度引いた境界・計画を維持する性能 $P_{\text{hold}}$。
+### Agreeableness
 
-### 4. Neuroticism（神経症傾向 / 危機・熱反応性）
-$$N_{\text{obs}} \approx \frac{R(d_{\text{threat}}) \cdot w_{\text{threat}} \cdot H_{\text{response}}}{\text{Recovery}}$$
-- **力学**: 遠距離の危機を敏感に検知する解像度、および誤差 $E$ を内部熱 $H$ へと急速変換する反応強度。
+協調・関係維持・対立回避・他者応答への感度等の観測断面として扱う。
 
-### 5. Openness（開放性 / 境界可塑・探索性）
-$$O_{\text{obs}} \approx R(d) \cdot w_{\text{novel}} \cdot P_{\text{redraw}}$$
-- **力学**: 未確定領域 $\xi$ に対する新奇性重み $w_{\text{novel}}$、および必要に応じて境界を引き直す可塑性 $P_{\text{redraw}}$。
+### Conscientiousness
+
+目標保持、計画継続、遅延報酬、規則・習慣の維持等の観測断面として扱う。
+
+### Neuroticism
+
+脅威感度、情動反応、回復時間、反復的な警戒等の観測断面として扱う。旧「誤差EをCore Hへ変換する係数」という定義は採用しない。
+
+### Openness
+
+新奇な経験・抽象的関係・再記述候補への接近傾向として扱う。旧「未確定領域ξへの重み」という定義は採用しない。新奇性は `ξ` ではない。
+
+## 2. 数式の身分
+
+SFOやHuman固有パラメータでBig Fiveを近似する式を置く場合、それは測定モデルの候補である。Core定義ではなく、データと耐久検査により採否を決める。
+
+## 3. 注意
+
+Big Fiveは観測尺度であり、人間の全構造を尽くさない。同じスコアでもB・文化・役割・状況が異なれば、相互作用応答は異なりうる。

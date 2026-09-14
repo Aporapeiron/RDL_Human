@@ -1,19 +1,27 @@
 # 05_空間流向_性格
 
-*RDL Human (T3応用層) / 空間流向・性格 / README / DRAFT v1.1*
+*RDL Human / T3 / Core v2.3同期*
 
----
+## 一文定義
 
-## ■ 0. 一文定義
+> **性格を固定実体としてではなく、特定Purpose / Bのもとで反復観測される行動・解釈・関係応答の流向として扱い、SFO・Big Five・MBTI等を比較可能な観測断面へ翻訳する。**
 
-> **空間流向・性格（T3応用層）は、性格を固定的な種別や部品としてではなく、認知空間 $\text{Space}_B$ 上のポテンシャル勾配と流向（SFO）、および Big Five や MBTI といった観測断面を SILN 力学変数として分解・統合する解析体系である。**
+## 基本規律
 
----
+```text
+Person ≠ M_B
+Trait ≠ SILN component
+Big Five / MBTI score ≠ Core variable
+```
 
-## ■ 1. 構成文書一覧
+人間というSILNについて取得した `M_B / RIB_B / F` と、Human固有の認知空間・流向モデルを使って、性格ラベルを有限な観測断面として記述する。
 
-| 文書 | タイトル | 主な内容 |
-| :--- | :--- | :--- |
-| **01** | [**01_SFO空間流向診断_統合モデル.md**](./01_SFO空間流向診断_統合モデル.md) | SFO 4大流向（前進探索・維持収束・共感同期・警戒防衛）と機能力学パラメータの結合。 |
-| **02** | [**02_BigFive_SILN項目分解.md**](./02_BigFive_SILN項目分解.md) | Big Five 5因子（OCEAN）を SILN 変数（$B_{\text{self}}, \theta_{\text{diff}}, w_{\text{diff}}, \theta_{\text{sync}}, R(d), P_{\text{hold}}, P_{\text{redraw}}$）で分解。 |
-| **03** | [**03_MBTI_SILN項目分解.md**](./03_MBTI_SILN項目分解.md) | MBTI 4軸（E/I, S/N, T/F, J/P）の情報処理・境界操作パラメータへの変換。 |
+Big FiveやMBTIを科学的に同等視しない。各尺度の身分・妥当性・用途は別に保持し、RDL翻訳は「同じ人間動態をどの断面から見たか」の比較候補として使う。
+
+## 主文書
+
+- `01_SFO空間流向診断_統合モデル.md`
+- `02_BigFive_SILN項目分解.md` — 題名は履歴上維持し、本文では「SILNの部品」ではなく観測断面として扱う
+- `03_MBTI_SILN項目分解.md` — 同上
+
+追加文書はHuman固有仮説として耐久検査対象とする。
